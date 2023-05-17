@@ -40,7 +40,7 @@ public class ATMFrame extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 int pin = Integer.parseInt(pinField.getText());
-                if (pin == 1234) {
+                if (pin == 5555) {
                     JOptionPane.showMessageDialog(null, "Pin is correct");
                 } else {
                     JOptionPane.showMessageDialog(null, "Pin is wrong!");
